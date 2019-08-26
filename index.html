@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+		<meta charset="UTF-8">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Викторина</title>
+		
+	</head>
+	<body>
+		<header class = 'title_header'>
+			<h1>Викторина по JS</h1>
+		</header>
+		<section class = 'content'>			
+			
+			<p  id = "result" ></p>
+						
+			<p  id = "question"></p>
+			
+			<button onclick="check(1)" class="content_answer" id="option1"></button>
+			
+			<button onclick="check(2)" class="content_answer" id="option2"></button>
+			
+			<button onclick="check(3)" class="content_answer" id="option3"></button>
+			
+			<button onclick="check(4)" class="content_answer" id="option4"></button>
+			
+			<button id="start"  onclick="check(0)">Приступить к викторине</button>
+		</section>
+		
+		<script src="js/script.js"></script> 
+	</body>
+</html>
