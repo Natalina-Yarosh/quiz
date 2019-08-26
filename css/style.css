@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
 
 *{
 	margin: 0;
@@ -11,7 +11,7 @@
 }
 
 body{	
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Alegreya', serif;
 }
 
 .title_header{
@@ -157,7 +157,7 @@ body{
 		padding: 8px 12px;
 		font-size: 2em;
 		border-radius: 7px;	
-		margin: 15px auto;
+		margin: 10px auto;
 		width: 600px;
 	}    
 
@@ -185,11 +185,11 @@ body{
 	}
 
 	#question{
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 	
 	.content_answer{
-		padding: 20px;
+		padding: 15px;
 		font-size: 1em;
 		border-radius: 7px;	
 		margin: 7px auto;
