@@ -1,5 +1,5 @@
 # Quiz Application
-##### https://natalina-yarosh.github.io/quiz/#/
+##### https://natalina-yarosh.github.io/quiz/
 
 
 > A simple but stylish general knowledge quiz built using JavaScript/CSS/HTML5
@@ -9,7 +9,7 @@
  - HTML5 / CSS3
  - Javascript
 
-### Steps for Pexels Application installation:
+### Steps for Quiz Application installation:
 
 `1.` Download a repository from github:
 ```sh
