@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Natalina-Yarosh/quiz/issues"
   },
-  "homepage":"https://natalina-yarosh.github.io/pexels",
+  "homepage":"https://natalina-yarosh.github.io/quiz",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
