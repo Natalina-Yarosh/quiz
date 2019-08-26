@@ -1,0 +1,22 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natalina-Yarosh/quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natalina-Yarosh/quiz/issues"
+  },
+  "homepage":"https://natalina-yarosh.github.io/pexels",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
