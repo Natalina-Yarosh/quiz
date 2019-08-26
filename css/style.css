@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
 
 *{
-	margin: 0;
+    margin: 0;
     padding: 0;
     line-height: 1;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;	
-	transition: all .5s;
+    transition: all .5s;
 }
 
 body{	
+<<<<<<< HEAD
 	font-family: 'Alegreya', serif;
+=======
+    font-family: 'Alegreya', serif;
+>>>>>>> 8259a8b2be0644eb3c397663a044cc89d932a6bd
 }
 
 .title_header{
-	position: fixed;
+    position: fixed;
     display: block;
     top: 0;
     left: 0;
@@ -28,13 +32,14 @@ body{
 }
 
 .content{
-	position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #start{
+<<<<<<< HEAD
 	text-decoration: none;
     font-size: 2em;
     color: #2F4F4F;    
@@ -66,26 +71,66 @@ body{
 
 .content_answer{
 	display:none;
+=======
+    text-decoration: none;
+    font-size: 2em;
+    color: #2F4F4F;    
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start:hover{
+    border: 1px solid #2F4F4F;
+    transform: scale(1.1);
+}
+
+#result{
+    font-size: 3em;
+    line-height: 2;
+    font-weight: bold;
+    text-align: center;
+    color: #2F4F4F;
+}
+
+#question{
+    font-size: 2.5em;
+    text-align: center;
+    color: #2F4F4F;
+    margin-bottom: 20px;
+}
+
+.content_answer{
+    display:none;
+>>>>>>> 8259a8b2be0644eb3c397663a044cc89d932a6bd
     font-size: 1.5em;
     color: #2F4F4F;
     background-color: #fff;
     padding:  8px;
+<<<<<<< HEAD
 	border: 1px solid #2F4F4F;
 	border-radius: 5px;	
 	margin: 10px auto;
 	width: 400px;
+=======
+    border: 1px solid #2F4F4F;
+    border-radius: 5px;	
+    margin: 10px auto;
+    width: 400px;
+>>>>>>> 8259a8b2be0644eb3c397663a044cc89d932a6bd
 }
 
 .content_answer:hover{
-	cursor: pointer;
-	color: #fff;
+    cursor: pointer;
+    color: #fff;
     background-color: #2F4F4F;
 }
 
 .title_footer{
-	display: none;
-	text-decoration: none;
-	position: fixed;
+    display: none;
+    text-decoration: none;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -97,8 +142,8 @@ body{
 }
 
 .title_footer:hover{
-	cursor:pointer;
-	transform: scale(1.1);
+    cursor:pointer;
+    transform: scale(1.1);
 }
 
 @media (max-width:1200px)
@@ -136,6 +181,44 @@ body{
 	}
 }
 
+<<<<<<< HEAD
+@media (max-width:1200px)
+{    
+	.title_header{
+		padding: 10px;
+		font-size: 1.5em;	
+	}
+
+	#start{
+		font-size: 3em;
+		padding: 30px 30px;
+		border-radius: 5px;
+	}
+
+	#question{
+		font-size: 2em;
+	}
+	
+	.content_answer{
+		padding:  15px;
+		font-size: 1.5em;
+		border-radius: 7px;	
+		margin: 15px auto;
+		width: 600px;
+	}    
+
+	#result{
+		font-size: 2.7em;
+	}
+
+	.title_footer{
+		padding: 20px;
+		font-size: 1.7em;
+	}
+}
+
+=======
+>>>>>>> 8259a8b2be0644eb3c397663a044cc89d932a6bd
 @media (max-width:768px)
 {    
 	.title_header{
@@ -204,4 +287,8 @@ body{
 		padding: 20px;
 		font-size: 1.5em;
 	} 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8259a8b2be0644eb3c397663a044cc89d932a6bd
